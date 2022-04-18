@@ -1,0 +1,104 @@
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+
+body{
+font-size: 15px;
+line-height: 1.5;
+font-family: 'Montserrat', sans-serif;
+background-color: thistle;
+}
+a{
+  text-decoration: none;
+  color:inherit;
+}
+.header-wrap{
+  max-width: 800px;
+  width:85%;
+  margin:0 auto;
+  padding: 10px 0;
+  display: block;
+  text-align: center;
+
+}
+.header-wrap h1{
+  font-size: 30px;
+  line-height: 1;
+}
+.header-wrap h3{
+  font-size: 20px;
+}
+.heading1{
+  display:block;
+  margin:0 auto;
+  padding: 10px 0;
+  width: inherit;
+  max-width: 800px;
+  width: 85%;
+}
+.heading1 h1{
+font-size:30px;
+text-transform:capitalize;
+}
+.heading1 p{
+ font-size: 20px; 
+}
+
+.Education-heading{
+  max-width: 800px;
+  width: 85%;
+  display: block;
+  margin:0 auto;
+  padding: 10px 0;
+  align-items: center;
+  justify-content: center;
+}
+.Education-heading h1{
+  font-size:30px;
+  text-transform: capitalize;
+}
+.Education-heading ul{
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+  list-style-type: none;
+}
+.Education-heading p{
+  font-size: 20px;
+}
+.Education-heading ul li h3{
+  white-space: nowrap;
+  font-size: 20px;
+}
+.workexperience-heading{
+  display: block;
+  margin:0 auto;
+  padding: 10px 0;
+  max-width: 800px;
+  width: 85%;
+}
+.workexperience-heading h1{
+  font-size: 30px;
+  text-transform: capitalize;
+}
+.workexperience-heading h2{
+  font-size: 20px;
+  white-space: nowrap;
+}
+.workexperience-heading ul li p{
+font-size: 20px; 
+text-align: left;
+width: 50%; 
+}
+.workexperience-heading ul{
+  list-style-type: none;
+}
+.workproof1,
+.workproof2,
+.workproof3{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
